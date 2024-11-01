@@ -5,13 +5,13 @@ Official repository for SIGGRAPH Asia 2024 paper: [*High-quality Animatable Eyel
 <img src="assets/teaser.jpg" width="100%"/> 
 
 * Coordinated Control
-<img src="assets/v1.gif" width="100%"/> 
+<div align="center"><img src="assets/v1.gif" width="75%"/></div>
 
 * Separate Control
-<img src="assets/v2.gif" width="100%"/> 
+<div align="center"><img src="assets/v2.gif" width="75%"/></div> 
 
 * Blinking Insertion
-<img src="assets/v3.gif" width="100%"/> 
+<div align="center"><img src="assets/v3.gif" width="75%"/></div>
 
 # Installation
 ## Step 1: Create Conda Environment
@@ -65,7 +65,7 @@ The data is organized as follows:
 ```
 
 ## Get Preprocessed Data
-You can download our preprocessed data from [Google Drive](https://drive.google.com/file/d/1D6aWXkvXZIiqLgT4oMgMA9V9T5bLduYA/view?usp=drive_link) for **academic usage only**.
+You can download our preprocessed data from [Google Drive](https://drive.google.com/file/d/1D6aWXkvXZIiqLgT4oMgMA9V9T5bLduYA/view?usp=drive_link) for **ACADEMIC USE ONLY**.
 ```
 |-- real_data
     |-- 001     # without skip_frames.txt (run with real.conf or real_split.conf)
