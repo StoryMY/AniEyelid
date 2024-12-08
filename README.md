@@ -129,10 +129,11 @@ This repository is built upon [NeuS](https://github.com/Totoro97/NeuS), [NDR](ht
 If this repository helps your research, please cite it in your publications:
 
 ```
-@article{lyu2024high,
+@inproceedings{lyu2024high,
   title={High-quality Animatable Eyelid Shapes from Lightweight Captures},
   author={Lyu, Junfeng and Xu, Feng},
-  journal={arXiv preprint arXiv:2410.01360},
+  booktitle={SIGGRAPH Asia 2024 Conference Papers},
+  pages={1--11},
   year={2024}
 }
 ```
