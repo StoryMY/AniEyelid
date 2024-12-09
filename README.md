@@ -73,7 +73,7 @@ You can download our preprocessed data from [Google Drive](https://drive.google.
 ```
 
 ## Generate Your Own Data
-The tutorial is coming soon.
+Tutorial can be found in [data_preprocess](./data_preprocess).
 
 # Running
 ## Configs
@@ -119,7 +119,7 @@ python geo_render_ani.py ./datasets/subject_1 exp/subject_1/ 120000
 ```
 
 # TODO List
-- [ ] Tutorial of Data Preprocessing
+- [x] Tutorial of Data Preprocessing
 - [ ] Code of Eyeball Calibration
 
 # Acknowledgements
