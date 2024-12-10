@@ -19,7 +19,7 @@ The meanning of parameters are listed as follows:
 
 * `gap`: sample one image for every `gap` images (Part 1)
 * `gap2`: sample one image for every `gap2` images (Part 2)
-* `split`: The split index for Part 1 and Part 2
+* `split`: the split index for Part 1 and Part 2
 
 In our experiments, Part 1 usually contains ~350 frames, while Part 2 usually contains ~150 frames.
 

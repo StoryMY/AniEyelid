@@ -24,7 +24,7 @@ conda activate anieyelid
 ## Step 2: Install Pytorch
 Find the suitable version from [Previous Pytorch Versions](https://pytorch.org/get-started/previous-versions/).
 ```
-# pytorch==1.8.0 with cudatoolkit=11.1 has been tested
+# pytorch==1.8.0 with cudatoolkit==11.1 has been tested
 conda install pytorch==1.8.0 torchvision==0.9.0 torchaudio==0.8.0 cudatoolkit=11.1 -c pytorch -c conda-forge
 ```
 
