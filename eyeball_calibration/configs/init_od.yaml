@@ -1,0 +1,28 @@
+data:
+  root_dir: ""
+  img: "rgb"
+  iris: "irismask2"
+  eye: "eyemask2"
+  camera: "sparse/0"
+  select: [0, 44, 127, 170, 266, 368, 388, 405, 479]
+  split: 360
+  env: "lights/limpopo_golf_course_2k.png"
+  load_img: True
+model:
+  dir: "./model"
+render:
+  cornea_alpha: 0.2
+optim:
+  init_gaze: [0, 0]
+  init_tohead: [3.1415926, 0, 0]
+  init_translate: "sparse_points_interest.ply"  # [0, 0, -25]
+  ft_translate: [-5, 0, 10]
+  init_scale: 0.5
+  batch: 1
+  max_iter: [200, 160, 2]
+  log_interval: 10
+  imgsave_interval: 40
+  display_res_ratio: 1
+  lr_base: 0.05
+  lr_ramp: 0.1
+device: "cuda"

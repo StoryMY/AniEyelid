@@ -73,7 +73,8 @@ You can download our preprocessed data from [Google Drive](https://drive.google.
 ```
 
 ## Generate Your Own Data
-Tutorial can be found in [data_preprocess](./data_preprocess).
+1. Refer to [data_preprocess](./data_preprocess) for getting images and camera parameters.
+2. Refer to [eyeball_calibration](./eyeball_calibration/) for getting eyeball parameters.
 
 # Running
 ## Configs
@@ -109,7 +110,7 @@ python exp_runner.py --mode intergaze --conf confs/$conf --case $case_name --is_
 # step 2: run the following command
 cd renderer && bash build.sh && cd ..
 ```
-- Rendering meshes
+- **Rendering meshes**
 ```
 # render reconstruction results
 python geo_render_rec.py ./datasets/subject_1 exp/subject_1/ 120000 0
@@ -120,7 +121,7 @@ python geo_render_ani.py ./datasets/subject_1 exp/subject_1/ 120000
 
 # TODO List
 - [x] Tutorial of Data Preprocessing
-- [ ] Code of Eyeball Calibration
+- [x] Code of Eyeball Calibration
 
 # Acknowledgements
 This repository is built upon [NeuS](https://github.com/Totoro97/NeuS), [NDR](https://github.com/USTC3DV/NDR-code), and [NeuDA](https://github.com/3D-FRONT-FUTURE/NeuDA). The code for geometry rendering is borrowed from [StereoPIFu](https://github.com/CrisHY1995/StereoPIFu_Code). We thank all the authors for their great work.
